@@ -110,3 +110,9 @@
 .site-popup .site-ref{font-size:10px}
 @media(max-width:1200px){.site-list{max-height:310px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.site-row{border-color:var(--line)}}
 @media(max-width:800px){.site-list{display:block;max-height:300px}.site-row{border-color:transparent;border-bottom-color:var(--line)}}
+
+/* Selection dismissal controls: intentionally small beside the panel title. */
+.selection-actions{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;column-gap:9px;row-gap:3px;text-align:right}
+#clear-selection{font-size:11px;text-decoration:underline;text-underline-offset:2px;white-space:nowrap}
+#clear-selection[hidden]{display:none!important}
+#clear-selection:focus-visible,#reset:focus-visible{outline:2px solid var(--teal);outline-offset:3px}

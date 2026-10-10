@@ -96,7 +96,7 @@
 .site-row:hover{background:#f3f8f6;border-color:#accfc6}
 .site-row.is-selected{background:#eaf5f2;border-color:var(--teal);box-shadow:inset 3px 0 0 var(--teal)}
 .site-row:focus-visible,.show-more:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
-.site-row-title{display:flex;align-items:center;gap:8px}
+.site-list .site-row .site-row-title{display:flex;align-items:center;gap:8px;margin-top:0}
 .site-row-title .marker-dot{flex:0 0 15px}
 .site-list .site-row b{font:800 12px/1.45 Manrope,Arial,sans-serif;overflow-wrap:anywhere}
 .site-list .site-row .site-row-sub{display:block;font-size:11px;line-height:1.45;color:#425e66;margin:5px 0 3px 23px;overflow-wrap:anywhere}

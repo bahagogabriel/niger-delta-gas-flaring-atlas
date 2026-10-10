@@ -1,0 +1,25 @@
+{
+  "source_files": {
+    "input/stage00b/audited_site_to_region_assignment.csv": "2f7ab9d79225d3ffab4f7c7d5ed91d7d135a76ddbb8c50c5efd9a9095b1c5876",
+    "input/stage00b/niger_delta_nine_states_validated.geojson": "1874552d989217ae44e5b1d689985fff6b371a420149f5518293c23a01a3b2b6",
+    "input/stage03a/outputs/site_level_priority_assessment_372.csv": "456ae32a74bf243701a152cd0398b701b0240819da6e6d472e0aca61d1869070",
+    "input/stage01/tables/annual_eligible_onshore_volume_by_verified_state.csv": "1d367c82570962cc44e862490a7f57db0fa7599532f829aa8d0d2988128ea99e"
+  },
+  "checks": {
+    "inventory_total": 476,
+    "eligible_onshore": 372,
+    "offshore": 70,
+    "ambiguous_conflict": 33,
+    "other_nigerian_onshore": 1,
+    "high": 34,
+    "elevated": 41,
+    "community": 24,
+    "ecosystem": 7,
+    "watchlist": 4
+  },
+  "generated_files": {
+    "sites_476.json": "77c94cd4339235e22de31b95186034864bc184f57c890d8c9875c85dc170eddf",
+    "dashboard.json": "9b851d63708bf3a4228cf13b1dca7b24abb6470ce12ee8123574f5466b90004e",
+    "niger_delta_nine_states.geojson": "1874552d989217ae44e5b1d689985fff6b371a420149f5518293c23a01a3b2b6"
+  }
+}
